@@ -17,6 +17,7 @@ tuple<Mat, vector<vector<int>>> getFaceBox(Net net, Mat &frame, double conf_thre
     double inScaleFactor = 1.0;
     Size size = Size(300, 300);
     // std::vector<int> meanVal = {104, 117, 123};
+	//修改测试222222
     Scalar meanVal = Scalar(104, 117, 123);
 
     cv::Mat inputBlob;
